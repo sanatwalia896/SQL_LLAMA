@@ -1,0 +1,8 @@
+langchain
+langchain_groq
+langchain_community
+langchain_ollama 
+langchain_huggingface
+langchain_openai
+streamlit 
+db-sqlite3
