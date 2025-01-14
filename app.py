@@ -68,12 +68,8 @@ def configure_db(
 
 
 if db_uri == MYSQL:
-    if connect_btn:
-        try:
-            db = configure_db(db_uri, mysql_host, mysql_user, mysql_password, mysql_db)
-            st.success("Successfully connected to the MySQL database!")
-        except Exception as e:
-            st.error(f"Failed to connect to the MySQL database: {e}")
+    db = configure_db(db_uri, mysql_host, mysql_user, mysql_password, mysql_db)
+    st.success("Successfully connected to the MySQL database!")
 else:
     db = configure_db(db_uri)
     st.success("Connected to the SQLite database!")
