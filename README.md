@@ -9,7 +9,7 @@ SQLLlama is a Streamlit-based chatbot application that enables users to interact
 - **Interactive Chat Interface**: Query your database using a simple chat-based UI.
 - **Database Options**:
   - Connect to a local SQLite database.
-  - Connect to a remote MySQL database.
+  - Connect to a remote MySQL database
 - **Streamlined Connectivity**: Easy setup for database connections with built-in error handling.
 - **LLM-Powered Responses**: Utilizes the ChatGroq model for intelligent query handling.
 - **Session Management**: Maintains chat history during a session with options to clear history.
